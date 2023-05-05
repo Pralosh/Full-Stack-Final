@@ -1,0 +1,130 @@
+#container {
+    margin: 0;
+    padding: 0;
+    background-image: url('image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.panel {
+    width: fit-content;
+    margin: auto;
+    padding: 40px;
+    background-color: rgb(47, 155, 218);
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 3px;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+h2 {    
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    margin-top: 0;
+    width: 220px;
+    border-radius: 0px 30px 30px 0px;
+}
+
+label {
+    font-size: 12px;
+}
+
+p {
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+img {
+    width: 50px;
+    margin: 10px;
+    margin-left: 35%;
+    padding: 4px;
+    border-radius: 40%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: bisque;
+    background-color: blanchedalmond;
+}
+
+input {
+    margin: 0px 0px 10px 0px;
+    width: 225px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+}
+
+button {
+    background-color: #f1c904;
+    border-style: none;
+    border-radius: 15px;
+    padding: 7px;
+    width: 80px;
+    margin: 15px 35%;
+    cursor: pointer;
+}
+
+#home-panel h2 {
+    margin: 20px 0px;
+}
+
+.homescreen-btn {
+    background-color: rgb(53, 178, 53);
+    color: white;
+    margin: 10px 30px;
+
+}
+
+#logout-btn {
+    color: rgb(255, 0, 0);
+    background-color: white;
+}
+
+#delete-btn {
+    background-color: rgb(185, 45, 45);
+}
+
+.text-box {
+    width: 400px;
+    height: 75px;
+    margin: 10px 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.diary-box {
+    padding: 7px;
+    margin: 20px auto;
+    font-size: 11px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#diaryContent { 
+    width: 300px;
+    height: 175px;
+    background-color: antiquewhite;
+    margin: 10px 30px;
+    border-style:outset;
+    border-width: 3px;
+    border-color: rgb(37, 39, 39);
+    overflow-x: hidden;
+    overflow-y: auto;
+}

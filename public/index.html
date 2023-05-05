@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&family=Nunito&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "style.css">
+        <title>Final Diary</title>
+    </head>
+    <body id = "container">
+        <div id = "main-frame">
+            <div id = "login-panel" class = "panel hidden">
+                <h2>Welcome to Diary</h2>
+                <img src = "image/user.png">
+                <br>
+                <label for = "username">Username</label>
+                <br>
+                <input type = "text" id = "username" placeholder = " Your Username">
+                <br>
+                <label for = "password">Password</label>
+                <br>
+                <input type = "password" id = "password" placeholder = " Password">
+                <br>
+                <button id = "login-btn">Login</button>
+                <br>
+                <p>Want to Register? Click <a href = "#" id = "register-link">Here</a></p>
+            </div>
+
+            <div id = "register-panel" class = "hidden panel">
+                <h2>Register</h2>
+                <img src = "image/add-user.png">
+                <br>
+                <label for = "registerUsername">Username</label>
+                <br>
+                <input type = "text" id = "registerUsername" placeholder = " Username">
+                <br>
+                <label for = "registerPassword">Password</label>
+                <br>
+                <input type = "password" id = "registerPassword" placeholder = " Password">
+                <br>
+                <label for = "registerEmail">Email</label>
+                <br>
+                <input type = "text" id = "registerEmail" placeholder = " name@example.com">
+                <br>
+                <button id = "register-btn">Register</button>
+                <br>
+                <p>Already have an Account?<br>Login <a href = "#" id = "login-link">Here</a></p>
+            </div>
+
+            <div id = "home-panel" class = "">
+                <H2>Add To Your Diary</H2>
+                <button id = "add-btn" class = "homescreen-btn">Add +</button>
+                <br>
+                <div id = "diaryInput"></div>
+                <div id = "diaryContent"></div>
+                <button id = "logout-btn" class = "homescreen-btn">Logout</button>
+                <br>
+                <button id = "delete-btn" class = "homescreen-btn">Delete Profile</button>
+            </div>
+        </div>
+    </body>
+    <script src = "script.js"></script>
+</html>
