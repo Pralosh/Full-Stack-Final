@@ -9,6 +9,12 @@ $('#login-btn').addEventListener('click', openHomePanel);
 $('#logout-btn').addEventListener('click', openLoginPanel);
 $('#add-btn').addEventListener('click', openTextBox);
 
+//functionality for register button
+$('#register-btn').addEventListener('click', e => {
+    alert('Account created.\nWelcome to your Diary!');
+    openHomePanel();
+});
+
 //confirms if user wants the profile deleted
 $('#delete-btn').addEventListener('click', e => {
     let msg = "Confirm Delete Profile?"
